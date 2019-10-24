@@ -1,0 +1,168 @@
+/* html {
+    box-sizing: border-box;
+} */
+
+/* *, *:before, *:after {
+    box-sizing: inherit;
+}  */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+#world {
+    width: 5;
+}
+
+div {
+    line-height: 0;
+} */
+
+.tile div {
+    text-align: center;
+}
+
+.tile {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.brick {
+    background-color: blue;
+    border: 2px solid silver;
+}
+
+.ground {
+    background-color: black;
+}
+.pellet {
+    background-color: yellow;
+    border-radius: 50%;
+    transform: scale(0.3);
+}
+
+.powerPellet {
+    background-color: yellow;
+    border-radius: 50%;
+    transform: scale(0.75);
+}
+.pacman {
+    background-image: url('img/right.gif');
+}
+
+.left {
+    background-image: url('img/left.gif');
+}
+
+.up {
+    background-image: url('img/up.gif');
+}
+
+.down {
+    background-image: url('img/down.gif');
+}
+
+.ghost {
+    background-image: url('img/ghost-green.gif');
+}
+
+.cherry {
+    background-image: url('img/pacmanCherry.png');
+}
+/* .powerPellet {
+    background-image: url('img/powerPellet.png');
+} */
+
+/* .ghostBlue {
+    background-image: url('img/ghost-blue.gif');
+}
+
+.ghostGreen {
+    background-image: url('img/ghost-green.gif');
+} */
+
+/* --------------------------------
+=======       My Code              ======      
+   --------------------------------*/
+/* .row {
+    width: auto;
+}
+.row div{
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    line-height: 0;
+} */
+
+/* .brick {
+    background-color: blue;
+}
+
+.pellet {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url('img/pacmanDot.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 25%;
+    line-height: 0;
+
+} */
+
+/* .powerPellet {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url('img/powerPellet.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 125%;
+    line-height: 0;
+}
+
+.empty {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-color: black;
+    line-height: 0;
+} */
+
+/* .pacman {
+    width: 20x;
+    height: 20px;
+    display: inline-block;
+    background-image: url('img/right.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+}
+
+.ghost1 {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url('img/ghost-green.gif');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+.cherry {
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-image: url('img/pacmanCherry.png');
+    background-repeat: no-repeat;
+    background-position: center;
+}  */
